@@ -43,6 +43,6 @@ shit-shell >> pwd
 shit-shell >> cd ..
 shit-shell >> pwd
 \path\to\my\awesome\hentai
-sea-shell >> exit
+shit-shell >> exit
 Are you sure? (Y/N): y
 ```
