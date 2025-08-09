@@ -19,8 +19,8 @@ It's a generic and vanilla shell that can run regular commands, check it out:
 ### the steps
 1. Okay so first, clone the fucking GitHub repo twin
   ```
-  git clone https://github.com/morenaur/sea-shell.git
-  cd sea-shell
+  git clone https://github.com/morenaur/shit-shell.git
+  cd shit-shell
   ```
 2. Install dependencies listed in the ```requirements.txt``` (literally just one fucking module: ```colorama```)
 ```
@@ -36,13 +36,13 @@ After running that, you'll see a prompt: ```shit-shell >> ``` and now you're rea
 
 ### example:
 ```
-sea-shell >> echo yo wsg?
+shit-shell >> echo yo wsg?
 yo wsg
-sea-shell >> pwd
-/path/to/my/awesome/hentai/folders
-sea-shell >> cd ..
-sea-shell >> pwd
-/path/to/my/awesome/hentai
+shit-shell >> pwd
+\path\to\my\awesome\hentai\folders
+shit-shell >> cd ..
+shit-shell >> pwd
+\path\to\my\awesome\hentai
 sea-shell >> exit
 Are you sure? (Y/N): y
 ```
