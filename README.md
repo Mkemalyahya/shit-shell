@@ -36,8 +36,8 @@ After running that, you'll see a prompt: ```shit-shell >> ``` and now you're rea
 
 ### example:
 ```
-shit-shell >> echo yo wsg?
-yo wsg
+shit-shell >> echo yo wsg gng
+yo wsg gng
 shit-shell >> pwd
 \path\to\my\awesome\hentai\folders
 shit-shell >> cd ..
