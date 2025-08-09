@@ -6,7 +6,7 @@ running = True
 
 while running:
     try:
-        u_input = input(f"{colorama.Fore.YELLOW}sea-shell{colorama.Fore.RESET} >> ")
+        u_input = input(f"{colorama.Fore.YELLOW}shit-shell{colorama.Fore.RESET} >> ")
         if not u_input:
             continue
 
