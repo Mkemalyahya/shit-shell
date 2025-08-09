@@ -1,14 +1,5 @@
 import sys, os, colorama, subprocess
 
-builtins = {
-    "exit": exit,
-    "echo": echo,
-    "cd": cd,
-    "pwd": pwd,
-    "cls": clear,
-    "clear": clear,
-}
-
 def exit(args):
     confirmation = input(f"{colorama.Fore.RED}Are you sure?{colorama.Fore.RESET} (Y/N): ")
     if not confirmation:
@@ -40,4 +31,13 @@ def clear(args):
         print(f"[{colorama.Fore.RED}clear{colorama.Fore.RESET}]: Too many arguments!")
         return
 
-    subprocess.run(["cls" if os.name == "nt" else "clear"])
+    subprocess.run(["cls" if os.name == "nt" else "clear"], shell=True)
+
+builtins_dict = {
+    "exit": exit,
+    "echo": echo,
+    "cd": cd,
+    "pwd": pwd,
+    "cls": clear,
+    "clear": clear,
+}
