@@ -8,7 +8,7 @@ It's a generic and vanilla shell that can run regular commands, check it out:
 - ```cd```: now, this one lets you change between folders:
   * ```cd ..``` with those extra two dots, is how you go back a folder.
   * ```cd``` with no arguments **shits** you to your home folder.
-- ```cls``` or ```clear```: wipes the terminal buffer, a fresh start.
+- ```cls``` or ```clear```: clears the screen, a fresh start.
 - ```exit```: this one let's you, wait for it... exit the shell 🤯, but it'll double-check first to see if you're sure though.
 
 ## how to run shit-shell
